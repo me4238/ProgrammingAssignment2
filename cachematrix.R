@@ -1,8 +1,8 @@
-##This function will create a special that can 
-##catch inverse
+##This function will create a special matrix that can 
+##cache inverse
 ##The function will be called CacheMatrix
 
-#The function will make a matrix which willdo  the inverse cache
+#The function will make a matrix which do  the inverse cache
 CacheMatrix <- function(x = numeric()) {
   m <- NULL
   set <- function(y) {
